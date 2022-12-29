@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    .header-container {
+        display: none;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        display: block;
+    }
+
+    .navbar-collapse {
+        margin-top: 12px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+
+    #content {
+        margin-top: 60px;
+    }
+
+    .content-container {
+        margin: 16px;
+    }
+
+    .news-phase {
+        flex-direction: column;
+    }
+
+    .news-list {
+        margin-left: 0;
+    }
+
+    .active-phase {
+        flex-direction: column;
+    }
+
+    .content-event .event-list__item {
+        display: block;
+    }
+}
